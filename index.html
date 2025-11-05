@@ -1,0 +1,102 @@
+////The final project I would like to make is a board game like candy land or chess. 
+
+ I will try to use react site that just makes the board start first. If I am able find a tutorial for a board type system. 
+ Seeing if I can get it to interact with the other squares. 
+ Then just make it so the chess piece or other game pieces can move and hit each other. 
+ If I go with this type of game I need to color both the tiles for the board. 
+ I also need to color the board a distinct color. This will help the player be able to tell where on board there are. 
+ There also needs to be timer keeping element if I go with chess. 
+ The need for this is because the other player can just sit there without playing. 
+ This will be turn based two player game without a need for an AI. 
+ They will play a turn that lasts 5 mins each for both games both chess and candy land. The player after there turn ends they will take card for candy land. 
+ There will be a way for the players to take cards or chess pieces. The need for dump place for used cards or chess pieces. 
+ If the player losses there maybe be a sad song or loser song that plays. That says player 2 has loss or forfeit. 
+ There should be a forfeit button if the other player is not having fun. There also should be a way for the person to be sent back to a space or two. 
+ It must be on board if they hit some type of obstacle. Like the black pudding swamp or card sent back to the next orange space on the board. 
+ 
+
+
+
+
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Protype</title>
+
+
+
+    <!--https://news.ycombinator.com/item?id=35204160-->
+    <!-- React and ReactDOM via CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<!-- https://code.visualstudio.com/docs/nodejs/reactjs-tutorial-->
+<!--https://legacy.reactjs.org/docs/cdn-links.html-->
+<!--https://www.stackhawk.com/blog/react-cors-guide-what-it-is-and-how-to-enable-it/-->
+<!--https://legacy.reactjs.org/docs/cdn-links.html-->
+<!--https://www.youtube.com/watch?v=on6FExmJiD8
+https://news.ycombinator.com/item?id=35204160
+
+chess board HTML | HTML table chess board
+
+Study & Tech 🤟
+
+
+--
+borad made by me custom holloween colors for new protype board game -->
+
+  <style> 
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: darkorchid;
+margin: 0;
+text-align: center;
+padding: auto;
+
+
+
+
+}
+h1{color: darkorange;
+
+}
+
+.borad{display:flex ;
+flex-wrap: wrap;
+width: 1000px;;
+margin: 10px auto;
+gap: 10px;
+}
+
+.space{
+
+
+    width: 40px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+
+
+  </style>
+
+  <body>
+  <h1>
+
+    Candy land 
+    <div id ="root"></div>
+
+
+    <!--https://news.ycombinator.com/item?id=35204160-->
+    <script type="text/babel" src="script.js"></script>
+    <!--https://news.ycombinator.com/item?id=35204160-->
+
+
+
+  </h1>
+    </body>
+    </html>
